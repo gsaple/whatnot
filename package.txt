@@ -1,30 +1,78 @@
+# for suckless
+libXinerama-devel
+libconfig-devel
+libev-devel
+libXft-devel
+
+# for ueberzugpp
+vips-devel
+libsixel-devel
+chafa-devel
+tbb-devel
+plasma-wayland-protocols-devel
+wayland-devel
+extra-cmake-modules
+
+# for lf
+mediainfo
+lynx
+bat
+unrar
+p7zip
+perl-Image-ExifTool
+ffmpegthumbnailer (need to enable the RPM Fusion repositories)
+poppler-utils
+odt2txt
+figlet
+lolcat
+transmission-common
+gnumeric
+zathura
+zathura-pdf-poppler
+zathura-ps
+zathura-djvu
+mpv
+sxiv
+
+# other
 neofetch
 neovim
 python3-neovim
 git
-htop
-@development-tools
-@development-libs
-@c-development
-@x-software-development
+gh
+fish
+exa
+fzf
+ripgrep
+fd-find
+bottom (need to enable atim/bottom at Copr)
+texlive-scheme-full
+libheif-devel
+libheif-tools
+chromium
+yt-dlp
+ncmpcpp
+mpd
+sdcv
+dictd
+kf6-kimageformats # for heic pic support
+
+# install codecs
+
+# old packages
 which
 dkms
 NetworkManager-wifi
 NetworkManager-wwan
 xorg-x11-server-Xorg
 xorg-x11-xinit
-libXinerama-devel
-libconfig-devel
-libev-devel
 meson
 uthash-devel
 xcb-util-image-devel
 xcb-util-renderutil-devel
 mesa-dri-drivers
-feh
 firefox
 fontawesome-fonts
-gh
 xorg-x11-util-macros
 picom
 xclip
@@ -41,33 +89,16 @@ light
 wget
 google-noto-emoji-color-fonts
 tree
-fish
-exa
-fzf
-zathura
-zathura-pdf-poppler
-zathura-ps
-zathura-djvu
 ImageMagick
-https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E % fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-mpv
 atool
 moreutils
-lynx
-bat
-mediainfo
-ffmpegthumbnailer
-poppler-utils
-odt2txt
 fortune-mod
 cowsay
-figlet
 cups
 simple-scan
 toilet
 maim
 xdotool
-lolcat
 asciiquarium
 ascii
 obs-studio
@@ -75,7 +106,3 @@ simplescreenrecorder
 pass
 lua
 akmod-wl
-ripgrep
-fd-find
-texlive-scheme-full
-chromium
