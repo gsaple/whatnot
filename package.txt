@@ -107,3 +107,4 @@ simplescreenrecorder
 pass
 lua
 akmod-wl
+kcolorchooser
